@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 
 import "@workspace/ui/globals.css";
@@ -11,6 +12,11 @@ const workSans = Work_Sans({
 });
 
 const themeScript = `(function(){try{var t=localStorage.getItem("minimalix-theme")||"dark";var r=document.documentElement;r.classList.remove("light","dark");r.classList.add(t);r.style.colorScheme=t;}catch(e){}})();`;
+
+export const metadata: Metadata = {
+  title: "Minimalix",
+  description: "Less But Better.",
+};
 
 export default function RootLayout({
   children,

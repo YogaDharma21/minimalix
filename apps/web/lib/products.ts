@@ -7,9 +7,6 @@ export interface ProductEntry {
   image: string;
 }
 
-const preview = (repo: string) =>
-  `https://opengraph.githubassets.com/1/YogaDharma21/${repo}`;
-
 export const products: ProductEntry[] = [
   {
     name: "Focus",
@@ -18,7 +15,7 @@ export const products: ProductEntry[] = [
     tags: ["TypeScript", "Productivity"],
     href: "https://github.com/YogaDharma21/focus",
     homepage: "https://focustrackers.my.id",
-    image: preview("focus"),
+    image: "/projects/focus.png",
   },
   {
     name: "SubKeep",
@@ -27,7 +24,7 @@ export const products: ProductEntry[] = [
     tags: ["Next.js", "Convex", "Clerk"],
     href: "https://github.com/YogaDharma21/subkeep",
     homepage: "https://subkeeps.my.id/",
-    image: preview("subkeep"),
+    image: "/projects/subkeep.png",
   },
   {
     name: "PocketCheck",
@@ -36,6 +33,6 @@ export const products: ProductEntry[] = [
     tags: ["React", "Convex", "Clerk"],
     href: "https://github.com/YogaDharma21/pocket-check",
     homepage: "https://www.pocketchecker.my.id/",
-    image: preview("pocket-check"),
+    image: "/projects/pocket-check.png",
   },
 ];

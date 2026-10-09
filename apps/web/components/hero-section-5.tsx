@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <main className="overflow-hidden">
       <section className="bg-background">
-        <div className="relative pb-32 pt-36">
+        <div className="relative pt-36 pb-16">
           <div className="relative z-10 mx-auto w-full max-w-[1000px] px-6">
             <div className="mask-radial-from-35% aspect-3/2 mask-radial-to-75% pointer-events-none relative mx-auto max-w-xl opacity-75 mix-blend-darken">
               <div className="bg-background absolute inset-0 mix-blend-overlay" />
@@ -18,7 +18,7 @@ export default function HeroSection() {
             </div>
             <div className="mx-auto mt-6 max-w-md text-center">
               <h1 className="text-balance text-4xl font-medium sm:text-5xl">
-                Minimalix. Less, but better.
+                Minimalix. But better.
               </h1>
             </div>
           </div>

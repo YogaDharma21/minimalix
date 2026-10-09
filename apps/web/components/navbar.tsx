@@ -3,8 +3,8 @@ import { ThemeToggle } from "@/components/theme-toggle";
 
 const Navbar = () => {
   return (
-    <nav className="fixed inset-x-4 top-6 z-50 mx-auto h-16 max-w-[1000px] rounded-full border bg-background">
-      <div className="mx-auto flex h-full items-center justify-between px-4">
+    <nav className="fixed top-6 left-1/2 z-50 w-fit max-w-[calc(100%-2rem)] -translate-x-1/2 rounded-full border bg-background">
+      <div className="flex h-14 items-center gap-5 px-5">
         <Logo />
         <ThemeToggle />
       </div>

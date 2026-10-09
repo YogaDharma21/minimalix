@@ -1,6 +1,3 @@
-import Link from "next/link";
-import { Button } from "@workspace/ui/components/button";
-import { ChevronRight } from "lucide-react";
 import Image from "next/image";
 
 export default function HeroSection() {
@@ -23,16 +20,6 @@ export default function HeroSection() {
               <h1 className="text-balance text-4xl font-medium sm:text-5xl">
                 Minimalix. Less, but better.
               </h1>
-              <p className="text-muted-foreground mt-4 text-balance">
-                A minimalist landing page with a focused product list.
-              </p>
-
-              <Button asChild className="mt-6 pr-1.5">
-                <Link href="#features">
-                  <span className="text-nowrap">Start Building</span>
-                  <ChevronRight className="opacity-50" />
-                </Link>
-              </Button>
             </div>
           </div>
         </div>

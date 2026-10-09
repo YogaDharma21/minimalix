@@ -9,14 +9,6 @@ export default function Page() {
       <Navbar />
       <HeroSection />
       <Features />
-      <section id="about" className="bg-background py-12">
-        <div className="mx-auto max-w-[1000px] px-6">
-          <p className="text-muted-foreground text-sm">
-            Minimalix keeps the page small. One hero, one product list, standard
-            chrome.
-          </p>
-        </div>
-      </section>
       <Footer />
     </div>
   );

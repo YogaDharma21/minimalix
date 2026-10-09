@@ -5,7 +5,7 @@ Landing page for Minimalix. Single static page that lists Product Entries inside
 ## Language
 
 **Product Entry**:
-Static name, description, icon and link rendered in the features grid.
+Static name, description, tags, image and link rendered in the project list.
 _Avoid_: product, feature, card
 
 **Landing Chrome**:

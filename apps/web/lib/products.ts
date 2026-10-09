@@ -1,48 +1,41 @@
-import type { LucideIcon } from "lucide-react";
-import { Boxes, Layers, Package, Puzzle, Sparkles, Zap } from "lucide-react";
-
 export interface ProductEntry {
   name: string;
   description: string;
-  icon: LucideIcon;
+  tags: string[];
   href: string;
+  homepage?: string;
+  image: string;
 }
+
+const preview = (repo: string) =>
+  `https://opengraph.githubassets.com/1/YogaDharma21/${repo}`;
 
 export const products: ProductEntry[] = [
   {
-    name: "Starter Kit",
-    description: "Minimal setup to launch a landing page in minutes.",
-    icon: Package,
-    href: "#",
+    name: "Focus",
+    description:
+      "A modern, minimalist productivity app to help you stay in the flow while working, studying, or relaxing.",
+    tags: ["TypeScript", "Productivity"],
+    href: "https://github.com/YogaDharma21/focus",
+    homepage: "https://focustrackers.my.id",
+    image: preview("focus"),
   },
   {
-    name: "UI Blocks",
-    description: "Copy-ready sections for hero, features and footer.",
-    icon: Layers,
-    href: "#",
+    name: "SubKeep",
+    description:
+      "A sleek subscription tracker to manage recurring expenses, billing cycles, and monthly spending analytics in one clean dashboard.",
+    tags: ["Next.js", "Convex", "Clerk"],
+    href: "https://github.com/YogaDharma21/subkeep",
+    homepage: "https://subkeeps.my.id/",
+    image: preview("subkeep"),
   },
   {
-    name: "Theme Preset",
-    description: "Neutral colors with dark mode and Work Sans.",
-    icon: Sparkles,
-    href: "#",
-  },
-  {
-    name: "Integrations",
-    description: "Connect tools and services with a few clicks.",
-    icon: Puzzle,
-    href: "#",
-  },
-  {
-    name: "Components",
-    description: "Accessible primitives built on shadcn and Radix.",
-    icon: Boxes,
-    href: "#",
-  },
-  {
-    name: "Fast Builds",
-    description: "Tuned defaults for quick iteration and deploy.",
-    icon: Zap,
-    href: "#",
+    name: "PocketCheck",
+    description:
+      "A web app to create and manage custom routines and checklist items, with progress tracking and a responsive dashboard.",
+    tags: ["React", "Convex", "Clerk"],
+    href: "https://github.com/YogaDharma21/pocket-check",
+    homepage: "https://www.pocketchecker.my.id/",
+    image: preview("pocket-check"),
   },
 ];

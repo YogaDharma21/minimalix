@@ -10,27 +10,24 @@ export interface ProductEntry {
 export const products: ProductEntry[] = [
   {
     name: "Focus",
-    description:
-      "A modern, minimalist productivity app to help you stay in the flow while working, studying, or relaxing.",
-    tags: ["TypeScript", "Productivity"],
+    description: "A minimalist productivity app to stay in the flow.",
+    tags: ["Productivity"],
     href: "https://github.com/YogaDharma21/focus",
     homepage: "https://focustrackers.my.id",
     image: "/projects/focus.png",
   },
   {
     name: "SubKeep",
-    description:
-      "A sleek subscription tracker to manage recurring expenses, billing cycles, and monthly spending analytics in one clean dashboard.",
-    tags: ["Next.js", "Convex", "Clerk"],
+    description: "Track subscriptions, billing cycles, and monthly spending.",
+    tags: ["Finance"],
     href: "https://github.com/YogaDharma21/subkeep",
     homepage: "https://subkeeps.my.id/",
     image: "/projects/subkeep.png",
   },
   {
     name: "PocketCheck",
-    description:
-      "A web app to create and manage custom routines and checklist items, with progress tracking and a responsive dashboard.",
-    tags: ["React", "Convex", "Clerk"],
+    description: "Routines and checklists with progress tracking.",
+    tags: ["Routines"],
     href: "https://github.com/YogaDharma21/pocket-check",
     homepage: "https://www.pocketchecker.my.id/",
     image: "/projects/pocket-check.png",

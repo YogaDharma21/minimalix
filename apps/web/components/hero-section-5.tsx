@@ -18,8 +18,11 @@ export default function HeroSection() {
             </div>
             <div className="mx-auto mt-6 max-w-md text-center">
               <h1 className="text-balance text-4xl font-medium sm:text-5xl">
-                Minimalix. But better.
+                Minimalix
               </h1>
+              <p className="text-muted-foreground mt-4 text-balance">
+                Less But Better.
+              </p>
             </div>
           </div>
         </div>

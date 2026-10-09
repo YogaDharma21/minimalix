@@ -29,19 +29,19 @@ const Navbar = () => {
   return (
     <nav
       className={cn(
-        "fixed inset-x-0 top-0 z-50 transition-transform duration-300",
-        hidden && "-translate-y-full"
+        "fixed top-6 left-4 z-50 w-fit transition-transform duration-300 md:left-6",
+        hidden && "-translate-y-[calc(100%+1.5rem)]"
       )}
     >
       <div
         className={cn(
-          "border-b transition-colors",
+          "rounded-full border transition-colors",
           scrolled
             ? "bg-background/80 border-border backdrop-blur"
             : "border-transparent bg-transparent"
         )}
       >
-        <div className="mx-auto flex h-16 max-w-[1000px] items-center justify-between px-6">
+        <div className="flex h-14 items-center gap-5 px-5">
           <Logo />
           <ThemeToggle />
         </div>

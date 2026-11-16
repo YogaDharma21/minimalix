@@ -19,5 +19,8 @@
   },
   "rtl": false,
   "menuColor": "default",
-  "menuAccent": "subtle"
+  "menuAccent": "subtle",
+  "registries": {
+    "@tailark-oss": "https://oss.tailark.com/r/radix/{name}.json"
+  }
 }
